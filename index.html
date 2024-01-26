@@ -28,11 +28,11 @@
 
     </div>
     <div class="section-2" id="form-redirect" >
-        <form class="form" action="./spins.html" target="_blank" method="POST">
+        <form class="form" id="form" action="./spins.html" target="_blank" required>
             <label for="email">Enter your email</label>
-            <input class="input-form" id="email" type="email" name="email-input" required>
+            <input class="input-form" id="email" type="email" name="email-input">
             <p>By claiming "Free Spins" you accept to the Terms & Conditions and Privacy Policy</p>
-            <button class="submit" type="submit" id="submit-button">
+            <button class="submit" type="submit" name="submit" id="submit-button">
                 <h2>CLAIM YOUR</h2>
                 <h1>100 FREE</h1>
                 <h2>SPINS NOW!</h2>
@@ -88,11 +88,5 @@
             </div>
         </div>
     </footer>
-
-    <!-- <script type="text/javascript">
-        document.getElementById("submit-button").onclick = function () {
-            location.href = "./spins.html";
-        };
-    </script> -->
 </body>
 </html>
