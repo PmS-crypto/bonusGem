@@ -278,6 +278,9 @@ label {
     letter-spacing: -2px;
 }
 
+.msection-3 {
+    display: none;
+}
 .section-3 {
     display: flex;
     width: 100%;
