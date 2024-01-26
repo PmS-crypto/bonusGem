@@ -44,6 +44,7 @@ nav {
 }
 
 .nav-button {
+    cursor: pointer;
     display: flex;
     width: 282px;
     height: 75px;
@@ -242,6 +243,7 @@ label {
     border-radius: 32px;
     background: #C00;
     box-shadow: 0px 0px 16px 7px #F8FE01;
+    cursor: pointer;
 }
 
 .form button h2 {
