@@ -687,6 +687,7 @@ p .three {
         flex-shrink: 0;
         color: #FFF;
         text-align: center;
+        text-shadow: -1px -1px 0 #cc0000, 1px -1px 0 #cc0000, -1px 1px 0 #cc0000, 1px 1px 0 #cc0000;
         -webkit-text-stroke-width: 2;
         -webkit-text-stroke-color: #000;
         top: 350px;
