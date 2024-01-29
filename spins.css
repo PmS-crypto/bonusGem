@@ -297,3 +297,16 @@ footer {
     color: white;
     text-align: center;
 }
+
+@media (max-width: 850px) {
+    .body {
+        width: 100%;
+        height: 553px;
+        background-image: url(./assets/heroSection.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 0;
+        top: 0;
+        left: 0;
+    }    
+}
