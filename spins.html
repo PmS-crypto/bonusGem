@@ -90,15 +90,11 @@
             seconds--;
             countdownElement.textContent = seconds;
           } else {
-            // Perform actions when the countdown reaches zero
-            // alert("Countdown is over!");
-            // You can replace the alert with any other action you want to perform
+            // redirect user to the game's landing page
           }
         }
       
-        // Initial setup and start the countdown
         window.onload = function() {
-          // Set interval to update the countdown every second (1000 milliseconds)
           setInterval(updateCountdown, 1000);
         };
       </script>
