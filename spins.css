@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow: visible;
+}
+
+body {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    background-image: url(./assets/heroSection.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+nav {
+    display: flex;
+    width: 1440px;
+    padding: 40px 80px;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+nav img {
+    width: 232px;
+    height: 120.257px;
+    flex-shrink: 0;
+    margin: 0 auto;
+}
+
+.section-1 {
+    display: flex;
+    width: 1068px;
+    padding: 64px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 63px;
+    border-radius: 0px 0px 8px 8px;
+    border: 6px solid #73DEEA;
+    background: rgba(0, 0, 0, 0.50);
+    margin-top: 50.74px;
+    margin-bottom: 58px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-1 h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Changa;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px; /* 54.688% */
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    height: auto;
+    width: auto;
+}
+
+.step-box {
+    display: flex;
+    padding: 64px 62px;
+    width: 749px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+    border-radius: 17px;
+    background: #FFF;
+    box-shadow: 0px 0px 16px 7px #F1BF10;
+}
+
+.step-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.step-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.step-box h2 {
+    display: flex;
+    width: 78px;
+    height: 68px;
+    flex-direction: column;
+    justify-content: center;
+    color: #01112B;
+    font-family: Changa;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 25% */
+    letter-spacing: -0.3px;
+}
+
+.step-box h3 {
+    flex: 1 0 0;
+    width: 100%;
+    color: #01112B;
+    font-family: Changa;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 100% */
+    letter-spacing: -0.3px;
+}
+
+.timer-box {
+    display: flex;
+    padding: 16px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+      
+}
+
+.timer-box h2 {
+    color: #FFF;
+    text-align: center;
+    -webkit-text-stroke-width: 4;
+    -webkit-text-stroke-color: #000;
+    font-family: Lato;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.timer {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.timer svg {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+}
+
+.timer h4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 24px;
+    padding-top: 10px;
+    flex-shrink: 0;
+    text-align: center;
+    font-family: Changa;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.3px;
+    background: var(--red-radial, radial-gradient(50% 50% at 50% 50%, #C00 0%, #590C0C 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.timer span {
+    background: var(--red-radial, radial-gradient(50% 50% at 50% 50%, #C00 0%, #590C0C 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Changa;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.3px; 
+}
+
+.greetings {
+    width: 787px;
+    height: 406px;
+}
+
+.greeting-box {
+    width: 566px;
+    height: 265px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--blue-linear, linear-gradient(180deg, #21CC51 0%, #001638 0.01%, #000 100%));
+    box-shadow: 0px 0px 16px 7px #F1BF10;
+    margin: auto;
+    margin-top: 83px;
+    padding-top: 15px;
+}
+
+.greeting-box h3 {
+    display: flex;
+    width: 398.62px;
+    height: 89px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    text-align: center;
+    font-family: Changa;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px; /* 100% */
+    background: var(--green-linear-bg, linear-gradient(180deg, #21CC51 0%, #166E55 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.greeting-box .sign {
+    width: 145px;
+    height: 45px;
+    flex-shrink: 0;
+    margin-left: 102px;
+    margin-top: 30px;
+}
+
+.greeting-box h4 {
+    display: flex;
+    width: 283.452px;
+    height: 28px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Changa;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 100% */
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    margin-left: 32px;
+    margin-top: 6px;
+}
+
+.greeting-box .mascot {
+    width: 85.64px;
+    height: 324.92px;
+    flex-shrink: 0;
+    margin-left: 446px;
+    margin-top: -320px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    padding: 96px 0px 30px 0px;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+.footer-frame {
+    width: 267;
+    height: 154;
+    margin: 65 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 28px;
+}
+
+.footer-img {
+    width: 115px;
+    height: 59.61px;
+    background-image: url(./assets/footer-img.png);
+    background-size: cover;
+}
+
+.footnotes {
+    width: 267.244px;
+    height: 66px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
