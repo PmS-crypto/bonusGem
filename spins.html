@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="spins.css">
 </head>
 <body>
+    <!-- https://www.casinoworld.com/fx/?alt=0&tr=1 --> 
     <nav>
         <img src="./assets/logo.png" alt="logo" class="logo"/>
     </nav>
@@ -46,8 +47,8 @@
                         <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_106_685" result="shape"/>
                       </filter>
                     </defs>
-                    <h4>5 <span>SECONDS</span></h4>
                   </svg>
+                  <h4><p id="countdown">5 </p><span>SECONDS</span></h4>
             </div>
         </div>
         <div class="greetings">
@@ -78,5 +79,28 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        // Function to update the countdown and trigger actions when it reaches zero
+        function updateCountdown() {
+          var countdownElement = document.getElementById('countdown');
+          var seconds = parseInt(countdownElement.textContent);
+      
+          if (seconds > 0) {
+            seconds--;
+            countdownElement.textContent = seconds;
+          } else {
+            // Perform actions when the countdown reaches zero
+            // alert("Countdown is over!");
+            // You can replace the alert with any other action you want to perform
+          }
+        }
+      
+        // Initial setup and start the countdown
+        window.onload = function() {
+          // Set interval to update the countdown every second (1000 milliseconds)
+          setInterval(updateCountdown, 1000);
+        };
+      </script>
 </body>
 </html>

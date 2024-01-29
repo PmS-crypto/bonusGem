@@ -149,6 +149,9 @@ nav img {
     position: relative;
     width: 150px;
     height: 150px;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
 }
 
 .timer svg {
@@ -159,8 +162,11 @@ nav img {
 
 .timer h4 {
     position: absolute;
+    display: block;
     top: 0;
-    left: 0;
+    left: 11%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 24px;
     padding-top: 10px;
     flex-shrink: 0;
